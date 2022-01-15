@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f4f4f4;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/*nav bar*/
+.brand-title{
+    cursor:pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 700;
+	margin-left: 15px;
+    color: black;
+}
+.navbar .brand-title:hover{
+    background-color: #f4f4f4;
+    transition: all 0.8s ease 0.3s;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+	position: relative;
+    
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+}
+.navbar-links ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    cursor:pointer;
+
+}
+.navbar-links ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-links ul li a:hover{
+    color: rgb(226, 62, 62);
+    transition:all 0.7s ease 0s;
+}
+.navbar-links .nav-contactus{
+	color: rgb(226, 62, 62);
+}
+/* nav bar end */
+
+.showcase{
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    width: 100%;
+}
+.contact-us{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.p-container{
+    height: 800px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 80px;
+}
+.p-container p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.fb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:35px;
+}
+.fb p{
+    margin: 5px;
+}
+.ig{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.ig p{
+    margin: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.email p{
+    margin: 5px;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+.phone p{
+    margin: 5px;
+}
+
+.p-container .with-color{
+    color: rgb(139, 136, 136);
+}
+
+/*footer*/
+
+.footer{
+    height: 70px;
+	width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+   /* background-color: #d4d2d2;
+    box-shadow: 1px 1px 1px 5px #d4d2d2; */
+    background-image: linear-gradient(#f4f4f4, #bdbdbd);
+	position: absolute;
+	bottom: 0%;
+}
+.footer a{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+.cs-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: 18px;
+    margin-right: 100px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
