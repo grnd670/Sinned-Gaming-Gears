@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#f4f4f4;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/*nav bar*/
+.brand-title{
+    cursor:pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 700;
+	margin-left: 15px;
+    color: black;
+}
+.navbar .brand-title:hover{
+    background-color: #f4f4f4;
+    transition: all 0.8s ease 0.3s;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+	position: relative;
+    
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+}
+.navbar-links ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    cursor:pointer;
+
+}
+.navbar-links ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-links ul li a:hover{
+    color: rgb(226, 62, 62);
+    transition:all 0.7s ease 0s;
+}
+
+/* nav bar end */
+.showcase{
+    height: 70%;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    
+}
+.FAQs{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    margin-top: 50px;
+    width: 55%;
+}
+.name span{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text-name{
+    font-size: 20px;
+    width: 600px;
+    margin-left: 10px;
+}
+.phone{
+    margin-top: 30px;
+    display: flex;
+    width: 55%;
+
+}
+.phone span{
+    font-size: 22px;
+    font-weight: 500;
+}
+.phone-name{
+    font-size: 20px;
+    width: 600px;
+    margin-left: 10px;
+}
+.address{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 55%;
+}
+.address span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.text-address{
+    margin-top: 5px;
+    font-size: 23px;
+    height: 120px;
+    width: 819px;
+}
+textarea{
+    font-family: 'Poppins', sans-serif;
+}
+.payment{
+    margin-top: 50px;
+    width: 55%;
+    
+}
+.payment span{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.payment span:nth-last-child(1){
+    font-size: 15px;
+    margin-left: 3px;
+    color: rgb(77, 73, 73);
+}
+.payment select{
+    height: 45px;
+    width: 150px;
+    margin-left: 15px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #f4f4f4;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-pay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.btn-pay a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    height: 100px;
+    cursor: pointer;
+    background-color: #333;
+    color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.btn-pay a:hover{
+    background-color: rgb(226, 62, 62);
+    transition: all 0.5s ease-in-out;
+}
+/*footer*/
+
+.footer{
+    height: 70px;
+	width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+   /* background-color: #d4d2d2;
+    box-shadow: 1px 1px 1px 5px #d4d2d2; */
+    background-image: linear-gradient(#f4f4f4, #bdbdbd);
+	position: absolute;
+	bottom: 0%;
+}
+.footer a{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+.cs-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: 18px;
+    margin-right: 100px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
